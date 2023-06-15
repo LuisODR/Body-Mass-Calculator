@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <section class="container">
+    <h1>Body Mass Index Table</h1>
+    <div>
+      <li>
+        <ul><strong>BMI</strong></ul>
+        <ul>Less than 18,5</ul>
+        <ul>In between 18,5 and 24,9</ul>
+        <ul>In between 25 and 29,9</ul>
+        <ul>In between 30 and 34,9</ul>
+        <ul>In between 35 and 39,9</ul>
+        <ul>More than 40</ul>
+      </li>
+      <li>
+        <ul><strong>Categories</strong></ul>
+        <ul>Underweight </ul>
+        <ul>Normal weight</ul>
+        <ul>Overweight</ul>
+        <ul>Obesity Class 1</ul>
+        <ul>Obesity Class 2</ul>
+        <ul>Obesity Class 3</ul>
+      </li>
+    </div>
+    <h2>Calculate your BMI</h2>
+    <form id="form">
+      <input type="text" class="person-height" id="person-height" placeholder="Put your height in meters (Ex: 1.80)">
+      <input type="text" class="person-weight" id="person-weight" placeholder="Put your weight in kilos (Ex: 80.9)">
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
